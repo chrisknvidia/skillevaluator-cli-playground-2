@@ -1,5 +1,18 @@
 [
   {
+    "run_id": 41562126166,
+    "run_attempt": 1,
+    "head_sha": "877d7359218ccfcf83a81b880dd9be2d1cb3c630",
+    "artifact_id": 13198235898,
+    "run_url": "https://github.com/chrisknvidia/skillevaluator-cli-playground-2/actions/runs/41562126166",
+    "report_url": "https://chrisknvidia.github.io/skillevaluator-cli-playground-2/runs/41562126166/1/",
+    "overall_status": "failed",
+    "ci_conclusion": "failure",
+    "event": "push",
+    "trusted_evaluator_sha": "e4cda13a85f34fa7a112b3529feaf24cfe587caf",
+    "image": "ghcr.io/nvidia/skillevaluator-tier1@sha256:c75c826f0e52d6c9a8d303ad7eefd606ed86e6940123f42b4eda2457863bcee7"
+  },
+  {
     "run_id": 41562066383,
     "run_attempt": 1,
     "head_sha": "943b5849c1cd4e2b839daff874cd2e18482deec9",
