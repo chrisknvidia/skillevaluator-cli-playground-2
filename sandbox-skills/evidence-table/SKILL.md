@@ -55,3 +55,5 @@ Absence of evidence does not prove a claim false.
 ## Troubleshooting
 If evidence conflicts, record both observations and explain the unresolved difference.
 If a claim is too broad to validate, request a narrower, measurable statement.
+
+<!-- SkillEvaluator onboarding demo: exercise automatic PR feedback. -->
