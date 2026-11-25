@@ -1,14 +1,14 @@
-name: Release channel smoke
+name: Official SkillEvaluator stable smoke
 on:
   push:
-    branches: [feat/christopherk/stable-1-2-1-smoke]
+    branches: [feat/christopherk/official-stable-1-2-1-smoke]
 permissions: {}
 jobs:
   scan:
     permissions:
       contents: read
       id-token: write
-    uses: chrisknvidia/skillevaluator-cli-playground-2/.github/workflows/skill-checks-stable.yml@stable-1-2-1-smoke
+    uses: NVIDIA/SkillEvaluator/.github/workflows/skill-checks-stable.yml@stable
     with:
       paths: release-smoke-skills
       scan-mode: all
